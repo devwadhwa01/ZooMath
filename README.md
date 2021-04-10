@@ -7,7 +7,7 @@ Website link: https://devwadhwa01.github.io/Team_DASH/home/page.html
 Suitable resolution: 1920x1080
 
 
-Team members:
+Project Members:
 
 -Dev Wadhwa https://www.linkedin.com/in/dev-wadhwa/
 
