@@ -1,0 +1,83 @@
+.slider {
+  width: auto;
+  height: 751px;
+  border-radius: 0px;
+  overflow: hidden;
+}
+
+.slides {
+  width: 500%;
+  height: 700px;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img {
+  width: auto;
+}
+
+.navigation-manual {
+  position: relative;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  left: 0%;
+  bottom: 5%;
+}
+
+.manual-btn {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  width: 20px;
+  height: 0.5px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 1s;
+  margin-left: 5%;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}
+
+.slider > .slides .inf {
+  position: relative;
+  bottom: 200px;
+  padding: 15px 30px;
+  bottom: 100%;
+  direction: rtl;
+}
+
+.slider > .slides .inf > h2 {
+  color: #fff;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.slider > .slides .inf > p {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+  width: auto;
+  padding: 10px;
+  border-radius: 4px;
+}

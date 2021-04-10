@@ -1,0 +1,47 @@
+#contact {
+  position: absolute;
+  background-image: url('../images/soil11.png');
+  background-repeat: repeat;
+  background-size: cover;
+  width: 100%;
+  top: 100%;
+}
+#contact h2{
+  height: fit-content; 
+  color: #ffffff; 
+  font-family: 'Segoe UI', sans-serif; 
+  width: 100%;
+}
+@font-face {
+  font-family: watan;
+  src: url("watan.ttf");
+}
+#contactus {
+  margin: 10px;
+  background-color: #503d3f;
+  height: 5rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-radius: 20px;
+  width: auto;
+  transition-duration: 0.2;
+  z-index: 3;
+  visibility: hidden;
+}
+.name {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+}
+.name > p {
+  font-size: 0.5rem;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: #e94f37;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: watan;
+}
+

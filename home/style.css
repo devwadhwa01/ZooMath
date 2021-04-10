@@ -1,0 +1,142 @@
+.navbar-brand .h2{
+    line-height: 130px;
+    color: #000000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+#sitelogo{
+    width: fit-content;
+    margin: 0 3vw;
+}
+body{
+    background-color: #E0F5FF;
+}
+.container-fluid{
+    width: 100vw;
+    background-color: #E0F5FF;
+    padding: 0;
+}
+#middle{
+    height: 72vh;
+    background-image: url('../images/background.png');
+    background-repeat: repeat;
+    animation: backgroundanim 30s linear 1s infinite forwards;
+}
+@keyframes backgroundanim{
+    from {background-position-x: 0;}
+    to{background-position-x: 100%;}
+}
+@-webkit-keyframes backgroundanim{
+    from {background-position-x: 0;}
+    to{background-position-x: 100%;}
+}
+
+#navbarSupportedContent{
+    position: absolute;
+    left:30%;
+    top: 5px;
+    width: 70%;
+}
+.indilink:hover{
+    transform: scale(1.1);
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.3s;
+}
+#garden{
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+strong{
+    position: absolute;
+    bottom: 28px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Courier New';
+}
+marquee{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+marquee img{
+    margin-right: 20px;
+}
+.indilink{
+    cursor: pointer;
+    width: fit-content;
+    position: relative;
+    text-align: center;
+    margin: 0 6vw;
+}
+.indilink a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    transform: translate(-50%, -50%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+#intro{
+    position: absolute;
+    top: 21%;
+    left: 27%;
+    height: 55%;
+    width: 44%;
+}
+.button {
+background-color: #54321d;
+border: none;
+color: white;
+padding: 6px 16px;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+transition-duration: 0.4s;
+cursor: pointer;
+border-radius: 8px;
+}
+
+
+
+.button1 {
+background-color: white;
+color: black;
+border: 2px solid #54321d;
+position: absolute;
+right:23%;
+}
+
+
+
+.button1:hover {
+background-color: #54321d;
+color: white;
+}
+
+
+/* #intro{
+    position: absolute;
+    top: 21%;
+    left: 27%;
+    height: 50vh;
+    width: 70vw;
+} */
+/* #contact img{
+    margin: 0;
+    height: 200px;
+    width: 100vw;
+} */
+
+/* #soil{
+    width: 100vw;
+    position: absolute;
+    height: 200px;
+} */
+
+/* .box{
+    position: absolute;
+}    */
