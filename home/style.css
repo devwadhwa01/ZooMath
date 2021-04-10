@@ -99,9 +99,6 @@ transition-duration: 0.4s;
 cursor: pointer;
 border-radius: 8px;
 }
-
-
-
 .button1 {
 background-color: white;
 color: black;
@@ -109,34 +106,8 @@ border: 2px solid #54321d;
 position: absolute;
 right:23%;
 }
-
-
-
 .button1:hover {
 background-color: #54321d;
 color: white;
 }
 
-
-/* #intro{
-    position: absolute;
-    top: 21%;
-    left: 27%;
-    height: 50vh;
-    width: 70vw;
-} */
-/* #contact img{
-    margin: 0;
-    height: 200px;
-    width: 100vw;
-} */
-
-/* #soil{
-    width: 100vw;
-    position: absolute;
-    height: 200px;
-} */
-
-/* .box{
-    position: absolute;
-}    */
