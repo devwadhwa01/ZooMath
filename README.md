@@ -1,7 +1,7 @@
 ZooMath is a web application that will provide an interactive environment for the children of the upcoming modern generation to learn and practice multiplication tables and attend quizzes according to their mindset to improve their knowledge and to make learning fun and easy.
 
 
-Website link: https://devwadhwa01.github.io/Team_DASH/home/page.html
+Website link: https://devwadhwa01.github.io/ZooMath/home/page.html
 
 
 Suitable resolution: 1920x1080
